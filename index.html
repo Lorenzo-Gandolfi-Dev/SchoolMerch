@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merchandise Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Merchandise Gallery</h1>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <div class="product">
+        <img src="shirt.jpg" alt="Shirt" class="product-image">
+        <h2 class="product-title">Basic T-Shirt</h2>
+        <p class="product-price">$19.99</p>
+        <div class="color-options">
+          <label for="color1">Color:</label>
+          <div class="color-box" style="background-color: #FF6347;" id="color1"></div>
+          <div class="color-box" style="background-color: #4682B4;" id="color2"></div>
+          <div class="color-box" style="background-color: #32CD32;" id="color3"></div>
+        </div>
+        <div class="size-options">
+          <label for="size">Size:</label>
+          <select name="size" id="size">
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Additional Products can be added similarly -->
+      <div class="product">
+        <img src="jeans.jpg" alt="Jeans" class="product-image">
+        <h2 class="product-title">Blue Denim Jeans</h2>
+        <p class="product-price">$39.99</p>
+        <div class="color-options">
+          <label for="color1">Color:</label>
+          <div class="color-box" style="background-color: #000080;" id="color4"></div>
+          <div class="color-box" style="background-color: #A9A9A9;" id="color5"></div>
+        </div>
+        <div class="size-options">
+          <label for="size">Size:</label>
+          <select name="size" id="size">
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Merchandise Store</p>
+  </footer>
+
+</body>
+</html>
