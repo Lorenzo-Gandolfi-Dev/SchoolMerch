@@ -34,6 +34,7 @@ main {
   width: 250px;
   text-align: center;
   padding: 20px;
+  border: 4mm ridge rgba(211, 220, 50, .6);
 }
 
 .product-image {
@@ -48,8 +49,7 @@ main {
 }
 
 .product-price {
-  font-size: 16px;
-  color: #e74c3c;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
