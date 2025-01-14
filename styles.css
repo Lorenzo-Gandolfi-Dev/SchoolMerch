@@ -34,7 +34,7 @@ main {
   width: 250px;
   text-align: center;
   padding: 20px;
-  border: 4mm ridge rgba(211, 220, 50, .6);
+  border: 4mm ridge rgba(255, 215, 0, .6);
 }
 
 .product-image {
