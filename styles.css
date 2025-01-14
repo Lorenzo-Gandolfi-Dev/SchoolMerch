@@ -68,6 +68,7 @@ main {
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+  border: solid;
   cursor: pointer;
 }
 
