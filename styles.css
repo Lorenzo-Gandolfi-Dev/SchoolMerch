@@ -32,14 +32,14 @@ main {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 250px;
+  width: 350px;
   text-align: center;
   padding: 20px;
   border: 2mm ridge rgba(188, 198, 204, .6);
 }
 
 .product-image {
-  width: 150%;
+  width: 100%;
   height: auto;
   border-radius: 5px;
 }
